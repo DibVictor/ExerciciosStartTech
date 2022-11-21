@@ -12,7 +12,7 @@ public class Ex05 {
         gCelsius = scanner.nextDouble();
 
         gFahrenheit = (gCelsius * 9/5) + 32;
-        
+
         System.out.printf("A temperatura informada é %.1fºC.", gCelsius);
         System.out.println();
         System.out.printf("Essa temperatura em Fahrenheit equivale a %.1f°F.", gFahrenheit);
