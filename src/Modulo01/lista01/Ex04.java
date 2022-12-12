@@ -1,4 +1,4 @@
-package lista01;
+package Modulo01.lista01;
 
 import java.util.Scanner;
 
