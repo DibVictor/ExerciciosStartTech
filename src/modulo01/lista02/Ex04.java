@@ -1,4 +1,4 @@
-package Modulo01.lista02;
+package modulo01.lista02;
 
 import java.util.Random;
 import java.util.Scanner;
