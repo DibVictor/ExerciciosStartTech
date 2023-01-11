@@ -10,7 +10,7 @@ public class Ex04 {
 
         System.out.print("Escolha um número de 1 a 6: ");
         int numApostado = scanner.nextInt();
-        int numSorteado = random.nextInt(6);
+        int numSorteado = random.nextInt(1, 6);
         System.out.println();
 
         System.out.printf("O número sorteado foi: %d", numSorteado);
@@ -19,7 +19,7 @@ public class Ex04 {
         if (numApostado == numSorteado){
             System.out.println("Você acertou! Parabéns!");
         } else{
-            System.out.println("Não foi dessa vez! Que pena!");
+            System.out.println("Você errou! Não foi dessa vez!");
         }
 
     }
