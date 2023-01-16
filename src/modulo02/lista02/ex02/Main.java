@@ -1,4 +1,4 @@
-package modulo02.lista01.ex02;
+package modulo02.lista02.ex02;
 
 import utils.Leitor;
 
@@ -21,7 +21,7 @@ public class Main {
         }
 
         for(Boletim boletim : boletins) {
-            System.out.printf("%s teve a média %.2f.\n", boletim.nomeDoAluno, boletim.calcularMedia());
+            System.out.printf("%s teve a média %.2f.\n", boletim.getNomeDoAluno(), boletim.calcularMedia());
         }
     }
 }
