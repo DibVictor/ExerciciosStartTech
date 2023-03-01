@@ -1,5 +1,12 @@
 package modulo01.lista01;
+/*
+1. Crie um programa que receba o ano de nascimento de uma pessoa e calcule quantos anos ela tem 
+considerando que o ano atual é 2022. Obs: Não vamos considerar o mês do nascimento nesse exercício.
 
+O ano de nascimento informado é 1998.
+A pessoa tem (ou vai completar) 24 anos em 2022. 
+
+ */
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
